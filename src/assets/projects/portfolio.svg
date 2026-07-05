@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Apercu du projet Portfolio</title>
+  <desc id="desc">Composition de portfolio avec sections et cartes de projets.</desc>
+  <rect width="1200" height="760" rx="40" fill="#07101f"/>
+  <circle cx="220" cy="168" r="180" fill="#2d5bff" opacity=".35"/>
+  <circle cx="1020" cy="620" r="210" fill="#8fd8a8" opacity=".2"/>
+  <rect x="92" y="82" width="1016" height="596" rx="30" fill="#0d1728" stroke="#273247"/>
+  <rect x="144" y="138" width="280" height="34" rx="17" fill="#f4efe6"/>
+  <rect x="144" y="218" width="460" height="24" rx="12" fill="#9ca8bd"/>
+  <rect x="144" y="270" width="172" height="48" rx="24" fill="#2d5bff"/>
+  <rect x="666" y="160" width="330" height="360" rx="26" fill="#121e32" stroke="#33415c"/>
+  <rect x="706" y="204" width="250" height="140" rx="20" fill="#f4efe6"/>
+  <rect x="706" y="378" width="182" height="18" rx="9" fill="#f4efe6"/>
+  <rect x="706" y="420" width="236" height="14" rx="7" fill="#8390a7"/>
+  <rect x="144" y="438" width="134" height="92" rx="18" fill="#121e32" stroke="#33415c"/>
+  <rect x="304" y="438" width="134" height="92" rx="18" fill="#121e32" stroke="#33415c"/>
+  <rect x="464" y="438" width="134" height="92" rx="18" fill="#121e32" stroke="#33415c"/>
+</svg>

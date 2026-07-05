@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Apercu du projet DataBoard</title>
+  <desc id="desc">Tableau de bord analytique avec graphiques sobres.</desc>
+  <rect width="1200" height="760" rx="40" fill="#f6f4ee"/>
+  <circle cx="1040" cy="140" r="190" fill="#8fd8a8" opacity=".45"/>
+  <circle cx="178" cy="620" r="210" fill="#2d5bff" opacity=".14"/>
+  <rect x="86" y="80" width="1028" height="600" rx="30" fill="#ffffff" stroke="#e6e0d5"/>
+  <rect x="134" y="130" width="220" height="36" rx="18" fill="#22252a"/>
+  <rect x="134" y="214" width="276" height="140" rx="22" fill="#f3f1eb"/>
+  <rect x="454" y="214" width="276" height="140" rx="22" fill="#f3f1eb"/>
+  <rect x="774" y="214" width="276" height="140" rx="22" fill="#f3f1eb"/>
+  <rect x="134" y="396" width="596" height="196" rx="24" fill="#f3f1eb"/>
+  <rect x="774" y="396" width="276" height="196" rx="24" fill="#f3f1eb"/>
+  <path d="M174 538c66-72 126-38 184-88 66-56 128-38 326-10" fill="none" stroke="#2d5bff" stroke-width="14" stroke-linecap="round"/>
+  <rect x="814" y="530" width="44" height="22" rx="11" fill="#8fd8a8"/>
+  <rect x="874" y="484" width="44" height="68" rx="14" fill="#2d5bff"/>
+  <rect x="934" y="438" width="44" height="114" rx="14" fill="#8fd8a8"/>
+</svg>

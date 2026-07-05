@@ -3,7 +3,7 @@ import type { Social } from '../types/portfolio';
 export const socials: Social[] = [
   {
     name: 'Email',
-    url: 'mailto:mateo@example.com',
+    url: 'mailto:mateopereira.06@gmail.com',
     icon: 'mail',
     label: 'Envoyer un email',
   },

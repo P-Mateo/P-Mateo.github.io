@@ -1,52 +1,66 @@
 export const content = {
-  brand: 'Mateo P.',
+  brand: 'Mateo Pereira',
+
   hero: {
     projectsButton: 'Voir mes projets',
     cvButton: 'Télécharger mon CV',
   },
+
   about: {
     eyebrow: 'À propos',
-    title: 'Un profil orienté produit, qualité et progression continue.',
-    description: 'Une présentation volontairement simple, pensée pour donner rapidement du contexte à un recruteur.',
+    title: 'Un profil orienté logique, structure et résolution de problèmes.',
+    description:
+        "Une présentation simple pour comprendre rapidement mon approche du développement : comprendre un problème, structurer une solution et la rendre fonctionnelle.",
     locationLabel: 'Localisation',
     availabilityLabel: 'Disponibilité',
     availabilityText: 'Ouvert aux stages, alternances et projets formateurs.',
   },
+
   skills: {
     eyebrow: 'Compétences',
-    title: 'Des technologies structurées par usage.',
-    description: 'Chaque compétence est déclarée dans un fichier de données, sans notation artificielle.',
+    title: 'Technologies utilisées dans des projets concrets.',
+    description:
+        "Des compétences techniques appliquées à des projets.",
   },
+
   projects: {
     eyebrow: 'Projets',
-    title: 'Des réalisations pensées comme des produits.',
-    description: 'La section principale du portfolio. Ajouter un projet revient à ajouter un objet dans le fichier de données.',
+    title: 'Des projets centrés sur la logique et la conception.',
+    description:
+        "Chaque projet représente une problématique résolue à travers une structure claire et une implémentation fonctionnelle.",
     descriptionHeading: 'Description',
     technologiesHeading: 'Technologies',
-    learnedSkillsHeading: 'Compétences',
+    learnedSkillsHeading: 'Compétences développées',
     githubButton: 'GitHub',
     closeButton: 'Fermer',
   },
+
   formation: {
     eyebrow: 'Formation',
-    title: 'Un parcours construit autour du développement logiciel.',
-    description: 'Une chronologie courte et lisible pour comprendre rapidement le contexte académique.',
+    title: 'Parcours académique',
+    description:
+        '',
   },
+
   cv: {
     eyebrow: 'CV',
-    title: 'Un document prêt à être téléchargé.',
-    description: 'Le fichier PDF est stocké dans les assets et peut être remplacé sans modifier la section.',
-    cardTitle: 'Curriculum vitæ',
+    title: 'Un CV accessible en un clic.',
+    description:
+        "Document PDF téléchargeable regroupant le parcours, les compétences et les expériences.",
+    cardTitle: 'CV Mateo Pereira',
     cardText:
-      'Téléchargez une version PDF du CV pour retrouver le parcours, les compétences et les informations de contact dans un format partageable.',
+        'Téléchargez le CV pour retrouver l’ensemble du parcours et des compétences techniques.',
     button: 'Télécharger',
   },
+
   contact: {
     eyebrow: 'Contact',
     title: 'Échanger simplement.',
-    description: 'Les liens de contact sont centralisés dans les fichiers de données et restent faciles à remplacer.',
+    description:
+        "Contact direct via email ou réseaux professionnels.",
     emailLabel: 'Adresse mail',
   },
+
   footer: {
     mention: 'Développé avec React et TypeScript.',
   },

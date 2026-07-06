@@ -6,17 +6,24 @@ import iutImage from '../assets/projects/dashboard.svg';
 import buvetteImage from '../assets/projects/dashboard.svg';
 import joImage from '../assets/projects/dashboard.svg';
 import dbImage from '../assets/projects/dashboard.svg';
+import workflowdaily from '../assets/projects/Daily resume.png';
+import workflowmonth from '../assets/projects/Month resume.png';
+import qrdashboard from '../assets/projects/Dashboard.png';
+import qrstatsadmin from '../assets/projects/Stats Admin.png';
+import qrtest from '../assets/projects/Test ecole.png';
+import qrstat from '../assets/projects/Stats.png';
+import qrcreepdf from '../assets/projects/cree qr pdf.png';
 
 import type { Project } from '../types/portfolio';
 
 export const projects: Project[] = [
   // =========================
-  // 🔥 STAGE (PRINCIPAL)
+  //  STAGE (PRINCIPAL)
   // =========================
 
   {
     id: 'qr-code-dynamique',
-    name: 'Application QR Code dynamique',
+    name: 'Application QR Code dynamique EPI',
     year: '2026',
     summary:
         "Application entreprise de génération et gestion de QR codes dynamiques sécurisés avec SSO Microsoft.",
@@ -27,7 +34,7 @@ export const projects: Project[] = [
       "Interface admin permettant la gestion globale et l'analyse des données d'utilisation.",
     ],
     image: qrImage,
-    images: [qrImage],
+    images: [qrImage,qrtest,qrdashboard,qrstatsadmin,qrstat,qrcreepdf],
     technologies: [
       'React',
       'TypeScript',
@@ -36,6 +43,7 @@ export const projects: Project[] = [
       'MySQL',
       'SSO Microsoft',
       'JWT',
+      'Docker',
     ],
     learnedSkills: [
       'Sécurité applicative',
@@ -48,7 +56,7 @@ export const projects: Project[] = [
 
   {
     id: 'n8n-workflows',
-    name: 'Automatisation veille technologique (n8n)',
+    name: 'Automatisation veille technologique ',
     year: '2026',
     summary:
         "Système d'automatisation de veille technologique basé sur n8n et traitement de données OneDrive.",
@@ -59,6 +67,7 @@ export const projects: Project[] = [
       "Envoi automatique d'un email récapitulatif mensuel (top 10 global).",
     ],
     image: n8nImage,
+    images: [n8nImage, workflowdaily, workflowmonth],
     technologies: ['n8n', 'Docker', 'OneDrive API', 'Automation'],
     learnedSkills: [
       'Automatisation de workflows',
@@ -69,13 +78,62 @@ export const projects: Project[] = [
   },
 
   // =========================
-  // 🚀 PROJETS FULLSTACK
+  //  PROJETS ÉCOLE jeux
+  // =========================
+
+  {
+    id: 'shrooms',
+    name: 'SHROOMS',
+    year: '2025',
+    summary:
+        "Jeu 2D type Terraria développé en Java avec architecture MVC.",
+    description: [
+      "Jeu développé entièrement en Java avec JavaFX.",
+      "Architecture MVC et programmation orientée objet.",
+      "Gestion de l’inventaire, des mobs hostiles , des crafts, exploration et interactions joueur.",
+      "Projet construit progressivement depuis zéro.",
+    ],
+    image: shroomsImage,
+    images: [shroomsImage],
+    technologies: ['Java', 'JavaFX', 'MVC', 'POO'],
+    learnedSkills: [
+      'Architecture logicielle',
+      'Programmation orientée objet',
+      'Gestion de projet',
+      'Conception de jeu',
+    ],
+  },
+
+  {
+    id: 'chess-java',
+    name: 'Jeu d’échecs ',
+    year: '2024',
+    summary:
+        "Premier projet majeur de programmation : jeu d’échecs en Java sans POO avancée.",
+    description: [
+      "Implémentation complète d’un jeu d’échecs en Java.",
+      "Projet réalisé en début de formation sans utilisation du POO.",
+      "Interface en terminal avec logique de jeu complète.",
+      "Projet formateur sur les bases de la programmation.",
+    ],
+    image: chessImage,
+    images: [chessImage],
+    technologies: ['Java'],
+    learnedSkills: [
+      'Logique algorithmique',
+      'Structures de base',
+      'Résolution de problèmes',
+    ],
+  },
+
+  // =========================
+  //  PROJETS FULLSTACK IUT
   // =========================
 
   {
     id: 'iut-portes-ouvertes',
     name: 'Application portes ouvertes IUT',
-    year: '2025',
+    year: '2026',
     summary:
         "Application web permettant aux visiteurs de s’enregistrer et consulter les informations d’événement.",
     description: [
@@ -85,6 +143,7 @@ export const projects: Project[] = [
       "Export des données au format CSV.",
     ],
     image: iutImage,
+    images: [iutImage],
     technologies: ['React', 'Python', 'Vite'],
     learnedSkills: [
       'Développement fullstack',
@@ -107,6 +166,7 @@ export const projects: Project[] = [
       "Base de données MySQL via PHPMyAdmin.",
     ],
     image: buvetteImage,
+    images: [buvetteImage],
     technologies: ['PHP', 'MySQL', 'HTML', 'CSS'],
     learnedSkills: [
       'Gestion backend PHP',
@@ -117,54 +177,7 @@ export const projects: Project[] = [
   },
 
   // =========================
-  // 🎓 PROJETS ÉCOLE
-  // =========================
-
-  {
-    id: 'shrooms',
-    name: 'SHROOMS',
-    year: '2025',
-    summary:
-        "Jeu 2D type Terraria développé en Java avec architecture MVC.",
-    description: [
-      "Jeu développé entièrement en Java avec JavaFX.",
-      "Architecture MVC et programmation orientée objet.",
-      "Gestion de l’inventaire, exploration et interactions joueur.",
-      "Projet construit progressivement depuis zéro.",
-    ],
-    image: shroomsImage,
-    technologies: ['Java', 'JavaFX', 'MVC', 'POO'],
-    learnedSkills: [
-      'Architecture logicielle',
-      'Programmation orientée objet',
-      'Gestion de projet',
-      'Conception de jeu',
-    ],
-  },
-
-  {
-    id: 'chess-java',
-    name: 'Jeu d’échecs (terminal)',
-    year: '2024',
-    summary:
-        "Premier projet majeur de programmation : jeu d’échecs en Java sans POO avancée.",
-    description: [
-      "Implémentation complète d’un jeu d’échecs en Java.",
-      "Projet réalisé en début de formation.",
-      "Interface en terminal avec logique de jeu complète.",
-      "Projet formateur sur les bases de la programmation.",
-    ],
-    image: chessImage,
-    technologies: ['Java'],
-    learnedSkills: [
-      'Logique algorithmique',
-      'Structures de base',
-      'Résolution de problèmes',
-    ],
-  },
-
-  // =========================
-  // 🧪 SAE (MINORS)
+  //  SAE MINEUR
   // =========================
 
   {
@@ -179,7 +192,8 @@ export const projects: Project[] = [
       "Projet de type SAE avec documentation et présentation.",
     ],
     image: joImage,
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+    images: [joImage],
+    technologies: ['HTML', 'CSS'],
     learnedSkills: ['Structuration web', 'Recherche documentaire'],
   },
 
@@ -194,6 +208,7 @@ export const projects: Project[] = [
       "Requêtes SQL et gestion de données relationnelles.",
     ],
     image: dbImage,
+    images: [dbImage],
     technologies: ['SQL', 'MySQL'],
     learnedSkills: ['Modélisation de données', 'SQL'],
   },

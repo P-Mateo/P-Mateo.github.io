@@ -1,4 +1,4 @@
-import cvUrl from '../assets/cv-mateo.pdf';
+import cvUrl from '../assets/Cv Pereira Mateo.pdf';
 import type {Profile} from '../types/portfolio';
 
 export const profile: Profile = {

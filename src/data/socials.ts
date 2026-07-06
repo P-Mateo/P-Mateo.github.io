@@ -15,7 +15,7 @@ export const socials: Social[] = [
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/mateo-pereira-466301345/',
     icon: 'linkedin',
     label: 'Voir le profil LinkedIn',
   },
